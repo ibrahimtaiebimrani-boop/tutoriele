@@ -1,1 +1,8 @@
-
+let age = 14;
+if(age>=16){
+console.log("trés bein");
+ }else if(age>=10){
+    console.log("validè");
+ } else if(age<10)  {
+    console.log("non validé");
+ }      
