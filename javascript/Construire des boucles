@@ -1,1 +1,11 @@
-
+let note = 1;
+while (note <= 5) {
+    console.log(note);
+    note++; 
+}
+__________________________________________________________________________
+for (let prounte = 1; prounte <= 10; prounte++) {
+    if (prounte % 2 === 0) {
+        console.log(prounte); 
+    }
+}
