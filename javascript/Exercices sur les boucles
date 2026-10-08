@@ -1,1 +1,11 @@
+let headure=8.
+for (let i=1;i<=headure;i++){
+  let ligentext="";
+for(let e=1;e<=headure-i;e++){
+ligentext=ligentext+" ";
+}
+for(let b=1;b<=(2*i)-1;b++){
+    ligentext=ligentext+"*";
+}
+console.log(ligentext)
 
