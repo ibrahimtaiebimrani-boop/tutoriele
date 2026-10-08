@@ -1,1 +1,11 @@
+let compteur=0;
+let some=0;
 
+for(let i=1; i<=20; i++){
+    some=some+i
+    compteur++
+
+    console.log(i)
+}console.log("nombre de pairs :", compteur,"\n",
+    "some de pairs :",some)
+console.log("total : ",some) 
