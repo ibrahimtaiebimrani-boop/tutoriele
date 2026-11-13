@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu du nombre secret</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jeu.js" defer></script>
+</head>
+
+<body class="game-page">
+
+    <header class="header">
+        <div class="container header-content">
+            <a href="index.html" class="logo">IBRAHIM<span>.</span></a>
+
+            <nav>
+                <a href="index.html">Retour au Portfolio</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="game-main">
+
+        <section class="game-card">
+
+            <span class="project-label">EXERCICE JAVASCRIPT</span>
+
+            <h1>Le nombre secret</h1>
+
+            <p>
+                Je pense à un nombre entre 1 et 100.
+                Essaie de le deviner !
+            </p>
+
+            <form id="guess-form">
+
+                <input
+                    type="number"
+                    id="guess"
+                    class="game-input"
+                    placeholder="Entrez un nombre entre 1 et 100"
+                    min="1"
+                    max="100"
+                    step="1"
+                    autocomplete="off"
+                >
+
+                <button type="submit" class="game-button">
+                    Vérifier
+                </button>
+
+            </form>
+
+            <p id="feedback" class="feedback" aria-live="polite">
+                Bonne chance !
+            </p>
+
+            <p class="attempts">
+                Nombre d'essais : <span id="attempts">0</span>
+            </p>
+
+            <button
+                type="button"
+                id="reset-button"
+                class="game-button reset-button"
+            >
+                Recommencer
+            </button>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 Ibrahim — Jeu JavaScript</p>
+    </footer>
+
+</body>
+</html>
+_____________________________________________________________________________________________________________________________
+"use strict";
+let secretNumber = Math.floor(Math.random() * 100) + 1;
+let attempts = 0;
+const form = document.getElementById("guess-form");
+const input = document.getElementById("guess");
+const feedback = document.getElementById("feedback");
+const attemptsDisplay = document.getElementById("attempts");
+const resetButton = document.getElementById("reset-button");
+form.addEventListener("submit", function (event) {
+
+    event.preventDefault();
+    attempts++;
+
+    attemptsDisplay.textContent = attempts;
+    const value = input.value.trim();
+    const guess = Number(value);
+    if (
+        value === "" ||
+        !Number.isInteger(guess) ||
+        guess < 1 ||
+        guess > 100
+    ) {
+        feedback.textContent =
+            "Ce n'est pas valide. Entrez un nombre entier entre 1 et 100.";
+
+        input.value = "";
+        input.focus();
+
+        return;
+    }
+    if (guess < secretNumber) {
+
+        feedback.textContent = "C'est plus grand !";
+
+    } else if (guess > secretNumber) {
+
+        feedback.textContent = "C'est plus petit !";
+
+    } else {
+        feedback.textContent =
+            "Bravo ! Vous avez trouvé le nombre secret : " +
+            secretNumber +
+            ". Score : " +
+            attempts +
+            " essais.";
+        input.disabled = true;
+        form.querySelector("button").disabled = true;
+    }
+
+});
+resetButton.addEventListener("click", function () {
+
+    secretNumber = Math.floor(Math.random() * 100) + 1;
+
+    attempts = 0;
+
+    attemptsDisplay.textContent = attempts;
+
+    feedback.textContent = "Nouvelle partie ! Bonne chance.";
+
+    input.value = "";
+    input.disabled = false;
+
+    form.querySelector("button").disabled = false;
+
+    input.focus();
+
+});
