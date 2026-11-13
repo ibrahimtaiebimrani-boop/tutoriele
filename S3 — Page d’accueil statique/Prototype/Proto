@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ibrahim | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header-content">
+
+            <a href="#" class="logo">IBRAHIM<span>.</span></a>
+
+            <nav>
+                <a href="#accueil">Accueil</a>
+                <a href="#apropos">À propos</a>
+                <a href="#competences">Compétences</a>
+                <a href="#projets">Projets</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <main>
+        <section id="accueil" class="hero">
+            <div class="container hero-content">
+
+                <div class="hero-text">
+
+                    <span class="subtitle">PORTFOLIO PERSONNEL</span>
+
+                    <h1>
+                        Bonjour, je suis
+                        <span>Ibrahim Taieb Imrani</span>
+                    </h1>
+
+                    <h2>Développeur Web Junior</h2>
+
+                    <p>
+                        Je suis un apprenant passionné par le développement Web.
+                        Je m'intéresse à la création de sites Web modernes,
+                        fonctionnels et adaptés à tous les écrans.
+                    </p>
+
+                    <a href="#projets" class="btn">
+                        Découvrir mes projets
+                    </a>
+
+                </div>
+
+                <div class="hero-visual">
+                    <span>IT</span>
+                </div>
+
+            </div>
+        </section>
+        <section id="apropos" class="section">
+            <div class="container">
+
+                <span class="section-label">01 — PRÉSENTATION</span>
+
+                <h2>À propos de moi</h2>
+
+                <p class="section-description">
+                    Je suis un apprenant en développement Web à Solicode.
+                    Je développe progressivement mes compétences en HTML,
+                    CSS, JavaScript et PHP à travers des exercices
+                    pratiques et des projets personnels.
+                </p>
+
+            </div>
+        </section>
+        <section id="competences" class="section skills-section">
+            <div class="container">
+
+                <span class="section-label">02 — TECHNOLOGIES</span>
+
+                <h2>Mes compétences</h2>
+
+                <div class="skills">
+
+                    <article class="skill-card">
+                        <h3>HTML</h3>
+                        <p>Structure des pages Web.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <h3>CSS</h3>
+                        <p>Mise en forme et design responsive.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <h3>JavaScript</h3>
+                        <p>Logique et interactions Web.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <h3>PHP</h3>
+                        <p>Programmation côté serveur.</p>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+        <section id="projets" class="section">
+            <div class="container">
+
+                <span class="section-label">03 — MES RÉALISATIONS</span>
+
+                <h2>Mes projets</h2>
+
+                <p class="section-description">
+                    Découvrez quelques projets personnels et réalisations
+                    développés pendant mon parcours de formation.
+                </p>
+
+                <div class="projects">
+
+                    <article class="project-card">
+
+                        <div class="project-visual artvault">
+                            <span>◇ ArtVault</span>
+                        </div>
+
+                        <div class="project-content">
+
+                            <span class="project-category">
+                                APPLICATION WEB
+                            </span>
+
+                            <h3>ArtVault</h3>
+
+                            <p>
+                                Un concept d'application pour organiser
+                                et gérer une collection d'objets d'art,
+                                de montres et d'antiquités.
+                            </p>
+
+                            <div class="technologies">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>PHP</span>
+                            </div>
+
+                            <a href="#contact" class="project-link">
+                                Voir le projet →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                    <article class="project-card">
+
+                        <div class="project-visual fit">
+                            <span>FIT BOUTIQUE</span>
+                        </div>
+
+                        <div class="project-content">
+
+                            <span class="project-category">
+                                E-COMMERCE
+                            </span>
+
+                            <h3>Fit Boutique</h3>
+
+                            <p>
+                                Un concept de boutique en ligne
+                                consacré à la présentation et
+                                à la vente de vêtements.
+                            </p>
+
+                            <div class="technologies">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                            <a href="#contact" class="project-link">
+                                Voir le projet →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                    <article class="project-card">
+
+                        <div class="project-visual bryous">
+                            <span>BRYOUS STUDIO</span>
+                        </div>
+
+                        <div class="project-content">
+
+                            <span class="project-category">
+                                CRÉATION DIGITALE
+                            </span>
+
+                            <h3>BRYOUS Studio</h3>
+
+                            <p>
+                                Un projet créatif autour de la
+                                présentation de contenus et
+                                d'identités visuelles numériques.
+                            </p>
+
+                            <div class="technologies">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                            </div>
+
+                            <a href="#contact" class="project-link">
+                                Voir le projet →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+        <section id="contact" class="contact-section">
+            <div class="container">
+
+                <span class="section-label">04 — CONTACT</span>
+
+                <h2>Restons en contact</h2>
+
+                <p>
+                    Merci de votre visite sur mon Portfolio.
+                    Je suis ouvert aux échanges et aux opportunités
+                    dans le domaine du développement Web.
+                </p>
+
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <div class="container">
+
+            <p>© 2026 Ibrahim Taieb Imrani</p>
+            <p>Développeur Web Junior — Solicode</p>
+
+        </div>
+    </footer>
+
+</body>
+</html>
+_____________________________________________________________________________________________________________________________
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #202535;
+    background-color: #f8f9fc;
+    line-height: 1.7;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+.header {
+    background-color: white;
+    border-bottom: 1px solid #e5e7eb;
+    padding: 20px 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: #202535;
+    text-decoration: none;
+}
+
+.logo span {
+    color: #6c63ff;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #606779;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #6c63ff;
+}
+.hero {
+    background-color: #171d31;
+    color: white;
+    padding: 100px 0;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.hero-text {
+    max-width: 650px;
+}
+
+.subtitle {
+    color: #a8a1ff;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.hero h1 {
+    font-size: 42px;
+    line-height: 1.3;
+    margin: 20px 0;
+}
+
+.hero h1 span {
+    color: #8c83ff;
+}
+
+.hero h2 {
+    color: #c2c5d4;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.hero p {
+    color: #c4c9d8;
+    margin: 20px 0 30px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #6c63ff;
+    color: white;
+    text-decoration: none;
+    padding: 13px 25px;
+    border-radius: 7px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #5148db;
+}
+
+.hero-visual {
+    width: 230px;
+    height: 230px;
+    flex-shrink: 0;
+    background-color: #292f48;
+    border: 2px solid #5148db;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-visual span {
+    font-size: 75px;
+    font-weight: bold;
+    color: #a8a1ff;
+}
+.section {
+    padding: 75px 0;
+}
+
+.section-label {
+    color: #6c63ff;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.section h2 {
+    font-size: 30px;
+    margin: 12px 0 20px;
+}
+
+.section-description {
+    max-width: 850px;
+    color: #697185;
+}
+.skills-section {
+    background-color: #eef0f8;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+    margin-top: 30px;
+}
+
+.skill-card {
+    background-color: white;
+    padding: 25px;
+    border: 1px solid #e7e8ef;
+    border-radius: 10px;
+}
+
+.skill-card h3 {
+    color: #6c63ff;
+    margin-bottom: 10px;
+}
+
+.skill-card p {
+    color: #697185;
+    font-size: 14px;
+}
+.projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+    margin-top: 35px;
+}
+
+.project-card {
+    background-color: white;
+    border: 1px solid #e5e7ef;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.07);
+}
+
+.project-visual {
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.artvault {
+    background: #252b3d;
+}
+
+.fit {
+    background: #7164a8;
+}
+
+.bryous {
+    background: #394b54;
+}
+
+.project-content {
+    padding: 22px;
+}
+
+.project-category {
+    color: #6c63ff;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.project-content h3 {
+    margin: 10px 0;
+    font-size: 21px;
+}
+
+.project-content p {
+    color: #697185;
+    font-size: 14px;
+    min-height: 100px;
+}
+
+.technologies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    margin: 20px 0;
+}
+
+.technologies span {
+    background-color: #eeedff;
+    color: #6259e8;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.project-link {
+    color: #6c63ff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+.contact-section {
+    background-color: #eef0f8;
+    padding: 70px 0;
+}
+
+.contact-section h2 {
+    font-size: 30px;
+    margin: 12px 0;
+}
+
+.contact-section p {
+    max-width: 700px;
+    color: #697185;
+}
+.footer {
+    background-color: #171d31;
+    color: #c4c9d8;
+    padding: 25px 0;
+    font-size: 13px;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+@media (max-width: 850px) {
+
+    .projects {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .skills {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .hero h1 {
+        font-size: 35px;
+    }
+}
+@media (max-width: 600px) {
+    .header-content {
+        flex-direction: column;
+        gap: 18px;
+    }
+    nav {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .hero {
+        padding: 65px 0;
+    }
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero h1 {
+        font-size: 30px;
+    }
+    .hero-visual {
+        width: 170px;
+        height: 170px;
+    }
+    .hero-visual span {
+        font-size: 55px;
+    }
+    .projects,
+    .skills {
+        grid-template-columns: 1fr;
+    }
+    .footer .container {
+        flex-direction: column;
+        text-align: center;
+    }
+}
