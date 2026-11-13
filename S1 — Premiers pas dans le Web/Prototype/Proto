@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contexte et acteurs du Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>IBRAHIM.</h1>
+
+        <nav>
+            <a href="#contexte">Contexte</a>
+            <a href="#objectifs">Objectifs</a>
+            <a href="#acteurs">Acteurs</a>
+            <a href="#conclusion">Conclusion</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <p>PROTOTYPE</p>
+            <h1>Contexte et acteurs du Portfolio</h1>
+            <p>
+                Première analyse du projet Portfolio :
+                contexte, objectifs et identification des acteurs.
+            </p>
+        </section>
+        <section id="contexte">
+            <h2>1. Contexte du projet</h2>
+
+            <p>
+                Le projet consiste à concevoir et développer un Portfolio
+                personnel permettant de présenter mon profil, mes compétences
+                techniques, mes réalisations et mes projets dans le domaine
+                du développement Web.
+            </p>
+            <p>
+                Ce Portfolio a pour objectif de valoriser mon parcours de
+                formation, de présenter les compétences acquises et de
+                faciliter la prise de contact avec les recruteurs,
+                les entreprises et les professionnels du secteur.
+            </p>
+            <p>
+                Le site doit proposer une interface claire, moderne,
+                responsive et facile à utiliser.
+            </p>
+        </section>
+        <section id="objectifs">
+            <h2>2. Les objectifs du Portfolio</h2>
+
+            <article>
+                <h3>Présentation personnelle</h3>
+                <p>Présenter mon identité et mon parcours de formation.</p>
+            </article>
+
+            <article>
+                <h3>Compétences techniques</h3>
+                <p>Mettre en valeur mes compétences techniques.</p>
+            </article>
+
+            <article>
+                <h3>Projets réalisés</h3>
+                <p>Présenter mes projets et mes réalisations.</p>
+            </article>
+
+            <article>
+                <h3>Découverte</h3>
+                <p>Permettre aux visiteurs de découvrir mon travail.</p>
+            </article>
+            <article>
+                <h3>Communication</h3>
+                <p>Faciliter les échanges et les prises de contact professionnelles.</p>
+            </article>
+        </section>
+        <section id="acteurs">
+            <h2>3. Identification des acteurs</h2>
+
+            <article>
+                <h3>Acteur 1 : Visiteur</h3>
+
+                <p>
+                    Le visiteur est une personne qui consulte le Portfolio.
+                    Il peut être un recruteur, une entreprise, un formateur
+                    ou un professionnel du développement Web.
+                </p>
+
+                <h4>Actions principales :</h4>
+
+                <ul>
+                    <li>Consulter la page d'accueil.</li>
+                    <li>Découvrir ma présentation et mon parcours.</li>
+                    <li>Consulter mes compétences techniques.</li>
+                    <li>Explorer les projets réalisés.</li>
+                    <li>Consulter les informations de contact.</li>
+                    <li>Envoyer un message via le formulaire de contact, si disponible.</li>
+                </ul>
+            </article>
+            <article>
+                <h3>Acteur 2 : Propriétaire du Portfolio (Administrateur)</h3>
+
+                <p>
+                    Le propriétaire du Portfolio est l'apprenant
+                    qui développe et gère son site personnel.
+                </p>
+
+                <h4>Actions principales :</h4>
+
+                <ul>
+                    <li>Mettre à jour les informations personnelles.</li>
+                    <li>Ajouter de nouveaux projets.</li>
+                    <li>Modifier les descriptions et les images des projets.</li>
+                    <li>Mettre à jour les compétences techniques.</li>
+                    <li>Gérer les informations de contact.</li>
+                    <li>Maintenir le contenu du Portfolio à jour.</li>
+                </ul>
+            </article>
+        </section>
+        <section>
+            <h2>4. Tableau récapitulatif des acteurs</h2>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Acteur</th>
+                        <th>Rôle</th>
+                        <th>Actions principales</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Visiteur</td>
+                        <td>Consulter le Portfolio</td>
+                        <td>
+                            Découvrir le profil, les compétences,
+                            les projets et contacter le développeur.
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Administrateur</td>
+                        <td>Gérer le Portfolio</td>
+                        <td>
+                            Ajouter, modifier et mettre à jour
+                            les informations et les projets.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="conclusion">
+            <h2>5. Conclusion</h2>
+
+            <p>
+                Cette première analyse permet d'identifier le contexte
+                général du Portfolio, ses objectifs et ses acteurs principaux.
+            </p>
+
+            <p>
+                Elle constitue une base pour les prochaines étapes de
+                conception et de réalisation du projet, notamment
+                l'identification des fonctionnalités, la modélisation
+                des données et le développement de l'application Web.
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2026 Ibrahim — Portfolio Personnel</p>
+        <p>Développeur Web Junior</p>
+    </footer>
+
+</body>
+</html>
