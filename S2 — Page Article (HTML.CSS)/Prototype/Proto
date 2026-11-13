@@ -4,192 +4,172 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>S1 - Réalisation du Portfolio</title>
+    <title>ArtVault - Détail du projet</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header>
-        <h1>Portfolio Personnel</h1>
-        <p>Ibrahim Taieb Imrani — Développeur Web Junior</p>
+    <header class="header">
+        <div class="container header-content">
 
-        <nav>
-            <a href="#contexte">Contexte</a>
-            <a href="#acteurs">Acteurs</a>
-            <a href="#fonctionnalites">Fonctionnalités</a>
-            <a href="#conclusion">Conclusion</a>
-        </nav>
+            <a href="index.html" class="logo">IBRAHIM<span>.</span></a>
+
+            <nav>
+                <a href="#presentation">Présentation</a>
+                <a href="#objectifs">Objectifs</a>
+                <a href="#fonctionnalites">Fonctionnalités</a>
+            </nav>
+
+        </div>
     </header>
 
-    <main>
+    <main class="container">
 
-        <section>
-            <h1>Tâche 18 — Réalisation</h1>
-            <h2>Identifier le contexte et les acteurs du Portfolio</h2>
+        <div class="breadcrumb">
+            <a href="index.html">Portfolio</a>
+            <span>/</span>
+            <span>ArtVault</span>
+        </div>
+
+        <section class="project-hero">
+
+            <span class="project-label">PROJET PERSONNEL</span>
+
+            <h1>ArtVault</h1>
+
+            <h2>Art & Collectibles Asset Manager</h2>
 
             <p>
-                Analyse du projet fil rouge : présentation du contexte,
-                identification des acteurs et définition de leurs
-                principales fonctionnalités.
+                ArtVault est un concept d'application Web permettant
+                de gérer et de valoriser une collection d'objets d'art,
+                de montres et d'antiquités.
             </p>
+
+            <span class="status">Prototype</span>
+
         </section>
 
-        <section id="contexte">
-            <h2>1. Contexte du projet</h2>
+        <section class="project-information">
 
-            <p>
-                Le projet consiste à concevoir et développer un Portfolio
-                personnel permettant de présenter mon profil, mon parcours
-                de formation, mes compétences techniques et mes projets
-                réalisés dans le domaine du développement Web.
-            </p>
+            <div class="info-card">
+                <h3>Type</h3>
+                <p>Application Web</p>
+            </div>
 
-            <p>
-                Ce Portfolio représente une vitrine professionnelle
-                destinée aux recruteurs, aux entreprises, aux formateurs
-                et aux professionnels du secteur informatique.
-            </p>
+            <div class="info-card">
+                <h3>Catégorie</h3>
+                <p>Gestion de collection</p>
+            </div>
 
-            <p>
-                Il permet aux visiteurs de découvrir mes réalisations,
-                d'évaluer mes compétences et de prendre contact avec moi.
-            </p>
+            <div class="info-card">
+                <h3>Rôle</h3>
+                <p>Développeur</p>
+            </div>
 
-            <p>
-                Le site doit proposer une interface moderne, claire,
-                responsive et facile à utiliser.
-            </p>
+            <div class="info-card">
+                <h3>Statut</h3>
+                <p>Prototype</p>
+            </div>
+
         </section>
 
-        <section id="acteurs">
-            <h2>2. Identification des acteurs</h2>
+        <section id="presentation" class="content-section">
 
-            <article>
-                <h3>Acteur 1 : Visiteur</h3>
+            <h2>01. Présentation du projet</h2>
 
-                <p>
-                    Le visiteur est une personne qui consulte le Portfolio.
-                    Il peut être un recruteur, une entreprise, un formateur
-                    ou un professionnel du développement Web.
-                </p>
+            <p>
+                ArtVault est un projet qui vise à proposer une solution
+                numérique pour organiser les objets de collection
+                et leurs documents associés.
+            </p>
 
-                <h4>Actions principales :</h4>
+            <p>
+                L'application permettra de centraliser les informations
+                importantes de chaque objet, notamment les photographies,
+                les certificats d'authenticité, les factures et les
+                estimations de valeur.
+            </p>
 
-                <ul>
-                    <li>Consulter la page d'accueil.</li>
-                    <li>Découvrir mon profil personnel.</li>
-                    <li>Consulter mon parcours de formation.</li>
-                    <li>Explorer mes compétences techniques.</li>
-                    <li>Consulter les projets réalisés.</li>
-                    <li>Découvrir les détails de chaque projet.</li>
-                    <li>Consulter mes coordonnées.</li>
-                    <li>Me contacter via les moyens de contact disponibles.</li>
-                </ul>
-            </article>
-
-            <article>
-                <h3>Acteur 2 : Administrateur (Propriétaire du Portfolio)</h3>
-
-                <p>
-                    L'administrateur est le propriétaire du Portfolio.
-                    Il est responsable de la création, de la gestion
-                    et de la mise à jour du contenu du site.
-                </p>
-
-                <h4>Actions principales :</h4>
-
-                <ul>
-                    <li>Modifier les informations personnelles.</li>
-                    <li>Mettre à jour le parcours de formation.</li>
-                    <li>Ajouter de nouvelles compétences techniques.</li>
-                    <li>Ajouter de nouveaux projets.</li>
-                    <li>Modifier les descriptions des projets.</li>
-                    <li>Ajouter ou remplacer les images des projets.</li>
-                    <li>Mettre à jour les informations de contact.</li>
-                    <li>Maintenir le Portfolio à jour.</li>
-                </ul>
-            </article>
         </section>
 
-        <section id="fonctionnalites">
-            <h2>3. Principales fonctionnalités par acteur</h2>
+        <section id="objectifs" class="content-section">
 
-            <h3>Fonctionnalités du Visiteur</h3>
+            <h2>02. Objectifs du projet</h2>
 
             <ul>
-                <li>Navigation entre les différentes sections du Portfolio.</li>
-                <li>Consultation du profil et des informations personnelles.</li>
-                <li>Consultation des compétences.</li>
-                <li>Visualisation de la liste des projets.</li>
-                <li>Consultation des informations de contact.</li>
+                <li>Organiser les objets de collection.</li>
+                <li>Centraliser les documents importants.</li>
+                <li>Consulter les informations de chaque objet.</li>
+                <li>Suivre l'évolution estimée de la valeur des objets.</li>
+                <li>Faciliter la gestion du patrimoine de collection.</li>
             </ul>
 
-            <h3>Fonctionnalités de l'Administrateur</h3>
-
-            <ul>
-                <li>Gestion du contenu personnel.</li>
-                <li>Gestion des projets et de leurs descriptions.</li>
-                <li>Gestion des compétences techniques.</li>
-                <li>Gestion des images et des ressources du Portfolio.</li>
-                <li>Mise à jour des informations de contact.</li>
-            </ul>
         </section>
 
-        <section>
-            <h2>4. Tableau récapitulatif des acteurs</h2>
+        <section id="fonctionnalites" class="content-section">
 
-            <table border="1">
-                <thead>
-                    <tr>
-                        <th>Acteur</th>
-                        <th>Rôle</th>
-                        <th>Fonctionnalités principales</th>
-                    </tr>
-                </thead>
+            <h2>03. Fonctionnalités envisagées</h2>
 
-                <tbody>
-                    <tr>
-                        <td>Visiteur</td>
-                        <td>Consulter le Portfolio</td>
-                        <td>
-                            Découvrir le profil, le parcours,
-                            les compétences, les projets et les contacts.
-                        </td>
-                    </tr>
+            <div class="features">
 
-                    <tr>
-                        <td>Administrateur</td>
-                        <td>Gérer le Portfolio</td>
-                        <td>
-                            Ajouter, modifier et mettre à jour
-                            les informations, les compétences et les projets.
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+                <article class="feature-card">
+                    <h3>Ma collection</h3>
+                    <p>
+                        Ajouter et consulter les objets de collection :
+                        montres, tableaux, sculptures et antiquités.
+                    </p>
+                </article>
+
+                <article class="feature-card">
+                    <h3>Documents</h3>
+                    <p>
+                        Organiser les certificats d'authenticité,
+                        les factures et les documents.
+                    </p>
+                </article>
+
+                <article class="feature-card">
+                    <h3>Évolution des valeurs</h3>
+                    <p>
+                        Consulter les estimations et suivre
+                        l'évolution de la valeur des objets.
+                    </p>
+                </article>
+
+                <article class="feature-card">
+                    <h3>Marché et vente</h3>
+                    <p>
+                        Préparer la présentation des objets
+                        destinés à la vente.
+                    </p>
+                </article>
+
+            </div>
+
         </section>
 
-        <section id="conclusion">
-            <h2>5. Conclusion</h2>
+        <section class="content-section">
 
-            <p>
-                Cette analyse permet de définir le contexte du Portfolio,
-                d'identifier les acteurs et de préciser leurs principales
-                fonctionnalités.
-            </p>
+            <h2>04. Technologies prévues</h2>
 
-            <p>
-                Elle constitue une étape importante dans la réalisation
-                du projet fil rouge et servira de base aux prochaines
-                étapes de conception et de développement.
-            </p>
+            <div class="technologies">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>PHP</span>
+            </div>
+
         </section>
+
+        <a href="jeu.html" class="back-link">
+            Découvrir le jeu JavaScript →
+        </a>
 
     </main>
 
-    <footer>
-        <p>© 2026 Ibrahim Taieb Imrani — Portfolio Personnel</p>
-        <p>Développeur Web Junior</p>
+    <footer class="footer">
+        <p>© 2026 Ibrahim Taieb Imrani — Développeur Web Junior</p>
     </footer>
 
 </body>
