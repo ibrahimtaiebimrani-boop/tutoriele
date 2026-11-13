@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebBlog — Actualités du Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header-content">
+
+            <a href="#accueil" class="logo">Web<span>Blog.</span></a>
+
+            <nav>
+                <a href="#accueil">Accueil</a>
+                <a href="#articles">Articles</a>
+                <a href="#categories">Catégories</a>
+                <a href="#apropos">À propos</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <main>
+        <section id="accueil" class="hero">
+            <div class="container hero-content">
+
+                <div class="hero-text">
+
+                    <span class="label">BIENVENUE SUR WEBBLOG</span>
+
+                    <h1>
+                        Explorez le monde du
+                        <span>développement Web.</span>
+                    </h1>
+
+                    <p>
+                        Découvrez des articles, des conseils et des
+                        ressources autour du développement Web,
+                        du design et des nouvelles technologies.
+                    </p>
+
+                    <a href="#articles" class="btn">
+                        Explorer les articles
+                    </a>
+
+                </div>
+
+                <div class="hero-image">
+                    <div class="image-content">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>PHP</span>
+                        <span>JS</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="categories" class="categories-section">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-label">EXPLORER</span>
+                    <h2>Explorer par thème</h2>
+                </div>
+
+                <div class="category-links">
+                    <a href="#articles" class="category active">
+                        Tous les articles
+                    </a>
+
+                    <a href="#developpement" class="category">
+                        Développement
+                    </a>
+
+                    <a href="#design" class="category">
+                        Design UI/UX
+                    </a>
+
+                    <a href="#technologies" class="category">
+                        Technologies
+                    </a>
+                </div>
+
+            </div>
+        </section>
+        <section id="articles" class="articles-section">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-label">NOTRE BLOG</span>
+                    <h2>Derniers articles</h2>
+                    <p>
+                        Retrouvez nos derniers contenus
+                        pour développer vos compétences.
+                    </p>
+                </div>
+
+                <div class="articles-grid">
+                    <article id="developpement" class="article-card">
+
+                        <div class="article-image image-one">
+                            <span>HTML & CSS</span>
+                        </div>
+
+                        <div class="article-content">
+
+                            <span class="category-tag blue">
+                                Développement
+                            </span>
+
+                            <div class="article-date">
+                                14 Février 2026
+                            </div>
+
+                            <h3>
+                                Comment structurer ses composants
+                                UI avec Atomic Design ?
+                            </h3>
+
+                            <p>
+                                Découvrez les concepts fondamentaux
+                                de la méthode Atomic Design et son
+                                utilisation dans la création
+                                d'interfaces Web.
+                            </p>
+
+                            <a href="article-atomic-design.html" class="read-more">
+                                Lire l'article →
+                            </a>
+
+                        </div>
+
+                    </article>
+                    <article id="design" class="article-card">
+
+                        <div class="article-image image-two">
+                            <span>UI / UX DESIGN</span>
+                        </div>
+
+                        <div class="article-content">
+
+                            <span class="category-tag pink">
+                                Design UI/UX
+                            </span>
+
+                            <div class="article-date">
+                                10 Février 2026
+                            </div>
+
+                            <h3>
+                                Maîtriser les micro-interactions UX
+                            </h3>
+
+                            <p>
+                                Une interface belle n'est pas
+                                suffisante. Découvrez comment
+                                les micro-interactions améliorent
+                                l'expérience utilisateur.
+                            </p>
+
+                            <a href="article-ux.html" class="read-more">
+                                Lire l'article →
+                            </a>
+
+                        </div>
+
+                    </article>
+                    <article id="technologies" class="article-card">
+
+                        <div class="article-image image-three">
+                            <span>JAVASCRIPT</span>
+                        </div>
+
+                        <div class="article-content">
+
+                            <span class="category-tag green">
+                                Technologies
+                            </span>
+
+                            <div class="article-date">
+                                05 Février 2026
+                            </div>
+
+                            <h3>
+                                Les bases essentielles de JavaScript
+                            </h3>
+
+                            <p>
+                                Apprenez les bases de JavaScript
+                                pour ajouter des interactions
+                                et du dynamisme à vos pages Web.
+                            </p>
+
+                            <a href="article-javascript.html" class="read-more">
+                                Lire l'article →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+        <section id="apropos" class="about-section">
+            <div class="container about-content">
+
+                <div>
+                    <span class="section-label">À PROPOS</span>
+
+                    <h2>Bienvenue dans notre univers Web</h2>
+
+                    <p>
+                        WebBlog est un espace dédié au partage
+                        des connaissances et à la découverte
+                        des technologies du développement Web.
+                    </p>
+
+                    <p>
+                        Notre objectif est de proposer des contenus
+                        utiles et accessibles pour accompagner
+                        les débutants et les passionnés du Web.
+                    </p>
+                </div>
+
+                <div class="about-number">
+                    <span>WEB</span>
+                    <strong>Blog</strong>
+                </div>
+
+            </div>
+        <section id="contact" class="contact-section">
+            <div class="container">
+
+                <span class="section-label">CONTACT</span>
+
+                <h2>Restons en contact</h2>
+
+                <p>
+                    Une question ou une suggestion ?
+                    N'hésitez pas à nous contacter.
+                </p>
+
+                <a href="mailto:contact@webblog.example" class="btn">
+                    Nous contacter
+                </a>
+
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <div class="container footer-content">
+
+            <a href="#accueil" class="footer-logo">
+                WebBlog.
+            </a>
+
+            <p>
+                © 2026 WebBlog — Tous droits réservés.
+            </p>
+
+            <a href="#accueil">Retour en haut ↑</a>
+
+        </div>
+    </footer>
+
+</body>
+</html>
+____________________________________________________________________________________________________________________________
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #202535;
+    background-color: #ffffff;
+    line-height: 1.7;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+.header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e8eaf0;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #202535;
+    font-size: 27px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.logo span {
+    color: #6c63ff;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #646b7c;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #6c63ff;
+}
+.hero {
+    background-color: #171d31;
+    color: white;
+    padding: 95px 0;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.hero-text {
+    max-width: 620px;
+}
+
+.label,
+.section-label {
+    color: #756dff;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.hero h1 {
+    font-size: 43px;
+    line-height: 1.3;
+    margin: 20px 0;
+}
+
+.hero h1 span {
+    color: #938bff;
+}
+
+.hero p {
+    color: #c4c9d8;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #6c63ff;
+    color: white;
+    padding: 13px 24px;
+    border-radius: 7px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #5148db;
+    transform: translateY(-3px);
+}
+
+.hero-image {
+    width: 300px;
+    height: 250px;
+    flex-shrink: 0;
+    background-color: #292f48;
+    border: 1px solid #454d70;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.image-content span {
+    background-color: #393f5d;
+    color: #a9a3ff;
+    padding: 15px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading h2,
+.about-content h2,
+.contact-section h2 {
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.section-heading p {
+    color: #737b8d;
+}
+.categories-section {
+    padding: 65px 0;
+    background-color: #f7f8fc;
+}
+
+.category-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.category {
+    display: inline-block;
+    text-decoration: none;
+    background-color: white;
+    color: #646b7c;
+    border: 1px solid #e6e8ef;
+    padding: 9px 18px;
+    border-radius: 25px;
+    font-size: 13px;
+    transition: 0.3s;
+}
+
+.category:hover {
+    color: #6c63ff;
+    border-color: #6c63ff;
+}
+
+.category.active {
+    background-color: #6c63ff;
+    color: white;
+    border-color: #6c63ff;
+}
+.articles-section {
+    padding: 75px 0;
+}
+
+.articles-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.article-card {
+    border: 1px solid #e8eaf0;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: white;
+    transition: 0.3s;
+}
+
+.article-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.07);
+}
+
+.article-image {
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.image-one {
+    background: #252e49;
+}
+
+.image-two {
+    background: #745d91;
+}
+
+.image-three {
+    background: #315e60;
+}
+
+.article-content {
+    padding: 23px;
+}
+
+.category-tag {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 5px 11px;
+    border-radius: 20px;
+}
+
+.blue {
+    background-color: #e6edff;
+    color: #4261c5;
+}
+
+.pink {
+    background-color: #ffe8f0;
+    color: #cf5585;
+}
+
+.green {
+    background-color: #e4f7ee;
+    color: #328663;
+}
+
+.article-date {
+    color: #9197a5;
+    font-size: 12px;
+    margin: 12px 0;
+}
+
+.article-content h3 {
+    font-size: 19px;
+    line-height: 1.4;
+    margin-bottom: 12px;
+}
+
+.article-content p {
+    font-size: 14px;
+    color: #707789;
+    margin-bottom: 20px;
+}
+
+.read-more {
+    text-decoration: none;
+    color: #6c63ff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+.about-section {
+    background-color: #f7f8fc;
+    padding: 75px 0;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.about-content > div:first-child {
+    max-width: 700px;
+}
+
+.about-content p {
+    color: #707789;
+    margin-top: 12px;
+}
+
+.about-number {
+    width: 180px;
+    height: 180px;
+    flex-shrink: 0;
+    background-color: #171d31;
+    color: #938bff;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.contact-section {
+    padding: 75px 0;
+    text-align: center;
+}
+
+.contact-section p {
+    color: #707789;
+    margin: 15px auto 25px;
+}
+.footer {
+    background-color: #171d31;
+    color: #c4c9d8;
+    padding: 25px 0;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.footer-logo {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.footer-content p {
+    font-size: 13px;
+}
+
+.footer-content > a:last-child {
+    color: #a9a3ff;
+    text-decoration: none;
+    font-size: 13px;
+}
+@media (max-width: 850px) {
+
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .articles-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .header-content {
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    nav {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .hero {
+        padding: 65px 0;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .hero-image {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .articles-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .about-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .about-number {
+        width: 140px;
+        height: 140px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
